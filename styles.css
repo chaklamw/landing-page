@@ -1,0 +1,26 @@
+body {
+background-color: #1f2937;
+
+}
+
+.header-container{
+    display:flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left:100px
+}
+.links {
+    display:flex;
+    align-items: center;
+    gap:16px;
+    font-size: 18px;
+    list-style-type: none;
+    margin-right: 100px;
+}
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: #E5E7EB;
+  }
